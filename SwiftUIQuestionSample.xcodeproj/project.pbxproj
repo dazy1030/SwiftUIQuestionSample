@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		434DA36028ABCB890041C3C4 /* SwiftUIQuestionSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA35F28ABCB890041C3C4 /* SwiftUIQuestionSampleApp.swift */; };
-		434DA36228ABCB890041C3C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA36128ABCB890041C3C4 /* ContentView.swift */; };
 		434DA36428ABCB8B0041C3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DA36328ABCB8B0041C3C4 /* Assets.xcassets */; };
 		434DA36728ABCB8B0041C3C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DA36628ABCB8B0041C3C4 /* Preview Assets.xcassets */; };
 		434DA37528ABCBCE0041C3C4 /* UIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 434DA37428ABCBCE0041C3C4 /* UIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434DA37828ABCBCE0041C3C4 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA37228ABCBCE0041C3C4 /* UIComponents.framework */; };
 		434DA37928ABCBCE0041C3C4 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA37228ABCBCE0041C3C4 /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		434DA37E28ABCBF90041C3C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DA36128ABCB890041C3C4 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				434DA35F28ABCB890041C3C4 /* SwiftUIQuestionSampleApp.swift */,
-				434DA36128ABCB890041C3C4 /* ContentView.swift */,
 				434DA36328ABCB8B0041C3C4 /* Assets.xcassets */,
 				434DA36528ABCB8B0041C3C4 /* Preview Content */,
 			);
@@ -110,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				434DA37428ABCBCE0041C3C4 /* UIComponents.h */,
+				434DA36128ABCB890041C3C4 /* ContentView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -226,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434DA36228ABCB890041C3C4 /* ContentView.swift in Sources */,
 				434DA36028ABCB890041C3C4 /* SwiftUIQuestionSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434DA37E28ABCBF90041C3C4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +366,7 @@
 		434DA36B28ABCB8B0041C3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +396,7 @@
 		434DA36C28ABCB8B0041C3C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

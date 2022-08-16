@@ -1,14 +1,16 @@
 //
 //  ContentView.swift
-//  SwiftUIQuestionSample
+//  UIComponents
 //
 //  Created by Naoki Odajima on 2022/08/16.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+public struct ContentView: View {
+    public init() {}
+    
+    public var body: some View {
         Text("Hello, world!")
             .padding()
     }
