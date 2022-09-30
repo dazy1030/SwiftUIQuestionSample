@@ -5,7 +5,6 @@
 //  Created by Naoki Odajima on 2022/08/16.
 //
 
-import UIComponents
 import SwiftUI
 
 @main
